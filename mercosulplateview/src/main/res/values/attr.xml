@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MercosulPlateView">
+        <attr name="country" format="enum">
+            <enum name="br" value="0" />
+            <enum name="ar" value="1" />
+            <enum name="uy" value="2" />
+            <enum name="py" value="3" />
+            <enum name="ve" value="4" />
+        </attr>
+        <attr name="plate" format="string"/>
+        <attr name="type" format="enum" >
+            <enum name="particular" value="0" />
+            <enum name="comercial" value="1" />
+            <enum name="especial" value="2" />
+            <enum name="oficial" value="3" />
+            <enum name="diplomatico" value="4"/>
+            <enum name="colecionador" value="5" />
+        </attr>
+        <attr name="android:gravity" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="barra_superior">#0033A0</color>
+    <color name="particular">#000</color>
+    <color name="comercial">#C8102E</color>
+    <color name="oficial">#0033A0</color>
+    <color name="diplomatico">#F2A900</color>
+    <color name="especial">#007A53</color>
+    <color name="colecionador">#818387</color>
+</resources>

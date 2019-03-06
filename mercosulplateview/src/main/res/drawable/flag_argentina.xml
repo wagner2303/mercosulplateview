@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/vector_argentina"
+        android:top="4px"
+        android:bottom="4px"
+        android:left="4px"
+        android:right="4px"/>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:color="@android:color/white"
+                    android:width="8px" />
+            <size android:width="200px" android:height="140px"/>
+            <corners android:radius="8px" />
+        </shape>
+    </item>
+</layer-list>

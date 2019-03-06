@@ -1,6 +1,16 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'wagner2303'
+    groupId = 'com.wagner2303'
+    artifactId = 'mercosulplateview'
+    publishVersion = '1.0'
+    desc = 'Android view for showing license plates for Mercosur states'
+    website = 'https://github.com/wagner2303/mercosulplateview'
+}
 
 android {
     compileSdkVersion 28

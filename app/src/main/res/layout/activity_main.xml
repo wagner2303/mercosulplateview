@@ -13,42 +13,69 @@
                 android:layout_width="218dp"
                 android:layout_height="100dp"
                 android:id="@+id/view" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
                 app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
-                app:country="ar"
-                app:plate="AB 123 CD"
-                app:type="especial" android:gravity="center"/>
+                app:country="br"
+                app:plate="ASD1234" android:gravity="center_horizontal|top"/>
         <com.wagner2303.mercosulplateview.MercosulPlateView
                 android:layout_width="0dp"
                 android:layout_height="116dp"
                 android:id="@+id/view2" android:layout_marginTop="8dp"
-                android:gravity="center"
+                android:gravity="end"
                 app:layout_constraintTop_toBottomOf="@+id/view" app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
                 app:country="br"
                 app:plate="ASD1234"
-                app:type="comercial" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginRight="8dp"/>
+                app:type="comercial"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.52"/>
         <com.wagner2303.mercosulplateview.MercosulPlateView
-                android:layout_width="355dp"
-                android:layout_height="200dp"
+                android:layout_width="165dp"
+                android:layout_height="152dp"
                 android:id="@+id/view3" android:layout_marginTop="8dp"
                 android:gravity="center"
                 app:layout_constraintTop_toBottomOf="@+id/view2" app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp" android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="1.0"
-                app:country="uy"
-                app:plate="ASD 1234"/>
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:country="br" app:type="especial"
+                app:plate="ASD1234"/>
         <com.wagner2303.mercosulplateview.MercosulPlateView
-                android:layout_width="0dp"
-                android:layout_height="200dp"
+                android:layout_width="277dp"
+                android:layout_height="112dp"
                 android:id="@+id/view4"
                 android:gravity="center"
                 app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp" android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="1.0"
-                app:country="py" app:type="diplomatico"
-                app:plate="ASD1234" android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/view3"/>
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:country="ar" app:type="diplomatico"
+                app:plate="AB 123 CD" android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/view3"/>
+        <com.wagner2303.mercosulplateview.MercosulPlateView
+                app:country="br"
+                app:plate="DDD1C34"
+                android:layout_width="200dp"
+                android:layout_height="50dp" android:id="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/view2"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+                app:layout_constraintStart_toEndOf="@+id/view3" android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp" app:type="oficial"
+                app:layout_constraintBottom_toBottomOf="@+id/view3"/>
+
+        <com.wagner2303.mercosulplateview.MercosulPlateView
+                android:layout_width="190dp"
+                android:layout_height="97dp"
+                android:id="@+id/view6"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:country="br"
+                app:plate="ABC1D32" android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/view4"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
